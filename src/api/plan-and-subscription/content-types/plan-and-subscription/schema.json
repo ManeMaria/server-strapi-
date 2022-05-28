@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "plans_and_subscriptions",
+  "info": {
+    "singularName": "plan-and-subscription",
+    "pluralName": "plans-and-subscriptions",
+    "displayName": "plansAndSubscriptions"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "typePlan": {
+      "type": "string",
+      "required": true
+    },
+    "bestChoice": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "planCharacteristics": {
+      "type": "json",
+      "required": true
+    }
+  }
+}
