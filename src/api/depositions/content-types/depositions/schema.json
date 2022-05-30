@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "deposition",
+  "info": {
+    "singularName": "depositions",
+    "pluralName": "deposition",
+    "displayName": "depositions"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "clienteName": {
+      "type": "string",
+      "required": true
+    },
+    "font": {
+      "type": "string",
+      "required": true
+    },
+    "deposition": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
